@@ -1,0 +1,115 @@
+[  
+   {  
+      "id_laporan":"5",
+      "foto_user":"http:\/\/182.23.67.208\/assets\/member-photos\/default_photo.jpg",
+      "nama_user":"Irfan",
+      "latitude":"1.1525536",
+      "longitude":"104.0546451",
+      "judul":"Mega Wisata Ocarina",
+      "deskripsi_laporan":"Ocarina Park atau Ocarina Batam Thema Park merupakan salah satu obyek wisata di kota Batam yang banyak menyajikan konsep taman bermain.",
+      "lama_penyelesaian":null,
+      "foto_laporan":[  
+         "http://i2.wp.com/cushtravel.com/wp-content/uploads/2014/01/ocarina-park-in-batam-island.jpg"
+      ],
+      "video_laporan":[  
+      ],
+      "media":"web",
+      "is_publish":"1",
+      "kategori":"Wisata alam",
+      "tanggal":"2018-09-05 14:30:42",
+      "foto_komentar":[  
+         "http:\/\/sorot.id\/assets\/images\/komentar\/20180905143757.jpg"
+      ],
+      "komentar":[  
+         "."
+      ]
+   },
+   {  
+      "id_laporan":"4",
+      "foto_user":"http:\/\/182.23.67.208\/assets\/member-photos\/default_photo.jpg",
+      "nama_user":"Galuh Garmabrata",
+      "latitude":"1.0848609",
+      "longitude":"103.9693663",
+      "judul":"Mata Kucing Jungle Tour And Mini Zoo",
+      "deskripsi_laporan":"Hutan Wisata Mata Kucing terletak di kawasan Sekupang - Batu Aji. Tepatnya di Jalan Lejjen R. Hutan wisata ini merupakan kebun binatang yang berada di tengah hutan. Berbeda dengan umumnya kebun binatang di daerah lain, kebun binatang di Hutan Wisata Mata Kucing Batam lebih alami.",
+      "lama_penyelesaian":null,
+      "foto_laporan":[  
+         "https://dbijapkm3o6fj.cloudfront.net/resources/13177,1004,1,6,4,0,600,450/-4601-/20170320204303/hutan-wisata-mata-kucing-batam.jpeg"
+      ],
+      "video_laporan":[  
+
+      ],
+      "media":"web",
+      "is_publish":"0",
+      "kategori":"Wisata alam",
+      "tanggal":"2017-12-08 15:57:38",
+      "foto_komentar":"",
+      "komentar":""
+   },
+   {  
+      "id_laporan":"3",
+      "foto_user":"http:\/\/182.23.67.208\/assets\/member-photos\/default_photo.jpg",
+      "nama_user":"Reza Efendi",
+      "latitude":"1.1423179",
+      "longitude":"104.1461676",
+      "judul":"Pantai Sekilak",
+      "deskripsi_laporan":"Pantai Sekilak tepatnya berada di daerah pinggiran Pulau Batam yang sekaligus berdekatan dengan Tanjung Mbeban, Kepulauan Riau, Indonesia. Pantai ini sangat direkomendasikan untuk menjadi salah satu destinasi wisata menarik bagi wisatawan baik asing maupun domestik.",
+      "lama_penyelesaian":null,
+      "foto_laporan":[  
+         "http://1.bp.blogspot.com/-E1s7J5WNZPM/U_bsIwGq89I/AAAAAAAAA1c/TqQaPD5bfmA/s1600/Sekilak%2Bbeach%2Bbatam%2B1.jpg"
+      ],
+      "video_laporan":[  
+
+      ],
+      "media":"web",
+      "is_publish":"1",
+      "kategori":"Wisata alam",
+      "tanggal":"2017-12-08 15:35:09",
+      "foto_komentar":"",
+      "komentar":""
+   },
+   {  
+      "id_laporan":"2",
+      "foto_user":"http:\/\/182.23.67.208\/assets\/member-photos\/default_photo.jpg",
+      "nama_user":"Reza Efendi",
+      "latitude":"1.153247",
+      "longitude":"103.9945963",
+      "judul":"Harbour Bay",
+      "deskripsi_laporan":"Harbour Bay adalah pelabuhan yang letaknya hanya 5 menit dari pusat kota Sei Jodoh dan Nagoya. Selain berufungsi sebagai pelabuhan Internasional, Harbour Bay juga bisa menjadi tempat berwisata.",
+      "lama_penyelesaian":null,
+      "foto_laporan":[  
+         "https://bacaterus.net/wp-content/uploads/2018/04/Harbour-Bay-Batam.jpg"
+      ],
+      "video_laporan":[  
+
+      ],
+      "media":"web",
+      "is_publish":"1",
+      "kategori":"Wisata alam",
+      "tanggal":"2017-12-08 15:35:09",
+      "foto_komentar":"",
+      "komentar":""
+   },
+   {  
+      "id_laporan":"1",
+      "foto_user":"http:\/\/182.23.67.208\/assets\/member-photos\/default_photo.jpg",
+      "nama_user":"Reza Efendi",
+      "latitude":"1.1263939",
+      "longitude":"104.0508739",
+      "judul":"Masjid Agung Batam",
+      "deskripsi_laporan":"Masjid ini memiliki bentuk yang unik yaitu seperti piramida. Masjid Agung Batam jga sering digunakan sebagai tempat singgah atau sholat para wisatawan yang datang karena bangunannya yang cukup luas.",
+      "lama_penyelesaian":null,
+      "foto_laporan":[  
+         "https://bacaterus.net/wp-content/uploads/2018/04/Masjid-Agung-Batam.jpg"
+      ],
+      "video_laporan":[  
+
+      ],
+      "media":"web",
+      "is_publish":"1",
+      "kategori":"Wisata alam",
+      "tanggal":"2017-12-08 15:35:09",
+      "foto_komentar":"",
+      "komentar":""
+   }
+]

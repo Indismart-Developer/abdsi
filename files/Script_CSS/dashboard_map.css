@@ -1,0 +1,24 @@
+/* CSS Tree */
+.no_checkbox > i.jstree-checkbox {
+  display:none;
+}
+.jstree-default .jstree-disabled{
+	color: #000 !important;
+}
+
+.map.fullscreenMap{
+    top: 0px !important;
+    left: 0px !important;
+    z-index: 1099;
+}
+/* End CSS Tree */
+
+.smaller-margins{
+    margin-left: 0 !important;
+}
+
+#content .map.fullscreenmap{
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 1500;
+}

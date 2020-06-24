@@ -1,0 +1,165 @@
+{  
+   "status":true,
+   "data":[  
+      {  
+         "id":375,
+         "code_report":"180828051402293",
+         "name":"csxcan007@gmail.com",
+         "fullname":"csx can",
+         "kategori":"Kerusakan Infrastruktur",
+         "title":"Sampah saluran",
+         "content":"Jalan rusak di jalan letjen soeprapto",
+         "avatar":"null",
+         "date":"2018-08-28 17:14:55",
+         "date_end":null,
+         "waktu_selesai":"",
+         "duration":17771,
+         "lat":"1.0505738",
+         "lng":"103.9661031",
+         "status":"Diterima",
+         "warna":"#CDDC39",
+         "publish":"Publish",
+         "evidence":"http:\/\/dpu.semarangkota.go.id\/files\/Evidence\/",
+         "feedback":null,
+         "image":[  
+            {  
+               "id":"459",
+               "image":"https://static.viva.co.id/thumbs3/2017/11/29/5a1e253a4290c-jalan-alternatif-bantul-kabupaten-gunung-kidul-rusak-diterjang-banjir_665_374.jpg"
+            }
+         ],
+         "video":[  
+
+         ],
+         "comment_count":0,
+         "share_link":"http:\/\/dpu.semarangkota.go.id\/Report\/Detail\/375"
+      },
+      {  
+         "id":373,
+         "code_report":"180823093535291",
+         "name":"csxcan007@gmail.com",
+         "fullname":"csx can",
+         "kategori":"Kerusakan Infrastruktur",
+         "title":"Sampah di saluran suratmo",
+         "content":"Jalan berlubang disekitaran Perumahan Bumi Kencana",
+         "avatar":"null",
+         "date":"2018-08-23 09:36:30",
+         "date_end":null,
+         "waktu_selesai":"",
+         "duration":17766,
+         "lat":"1.0550118",
+         "lng":"103.978582",
+         "status":"Diterima",
+         "warna":"#CDDC39",
+         "publish":"Publish",
+         "evidence":"http:\/\/dpu.semarangkota.go.id\/files\/Evidence\/",
+         "feedback":null,
+         "image":[  
+            {  
+               "id":"457",
+               "image":"http://images.hukumonline.com/frontend/lt5a954764bab1a/lt5a954d70cd9dd.jpg"
+            }
+         ],
+         "video":[  
+
+         ],
+         "comment_count":0,
+         "share_link":"http:\/\/dpu.semarangkota.go.id\/Report\/Detail\/373"
+      },
+      {  
+         "id":370,
+         "code_report":"180809081607288",
+         "name":"adhakhil100@gmail.com",
+         "fullname":"suryo",
+         "kategori":"Kerusakan Infrastruktur",
+         "title":"Jalan banayak berlubang",
+         "content":"Jalan berlubang sekitaran Alfamart Pemda 2",
+         "avatar":"https:\/\/lh3.googleusercontent.com\/-XdUIqdMkCWA\/AAAAAAAAAAI\/AAAAAAAAAAA\/4252rscbv5M\/photo.jpg",
+         "date":"2018-08-09 08:16:54",
+         "date_end":"2018-08-13 00:00:00",
+         "waktu_selesai":"",
+         "duration":3,
+         "lat":"1.0517741",
+         "lng":"103.9698608",
+         "status":"Diproses",
+         "warna":"#03A9F4",
+         "publish":"Publish",
+         "evidence":"http:\/\/dpu.semarangkota.go.id\/files\/Evidence\/Foto_Laporan_20180814_012920.jpg",
+         "feedback":"Sudah disurvey dan akan segera dilakukan perbaikan",
+         "image":[  
+            {  
+               "id":"452",
+               "image":"https://celebesonline.com/wp-content/uploads/2018/02/Jalan-berlubang.jpg"
+            }
+         ],
+         "video":[  
+
+         ],
+         "comment_count":0,
+         "share_link":"http:\/\/dpu.semarangkota.go.id\/Report\/Detail\/370"
+      },
+      {  
+         "id":369,
+         "code_report":"180809081136287",
+         "name":"adhakhil100@gmail.com",
+         "fullname":"suryo",
+         "kategori":"Kerusakan Infrastruktur",
+         "title":"Jalan jeglong",
+         "content":"Terdapat tumpukan sampang disekitaran jalan menuju alun-alun, jalan engku putri yang menyebabkan bau tidak sedap.",
+         "avatar":"https:\/\/lh3.googleusercontent.com\/-XdUIqdMkCWA\/AAAAAAAAAAI\/AAAAAAAAAAA\/4252rscbv5M\/photo.jpg",
+         "date":"2018-08-09 08:12:32",
+         "date_end":"2018-08-30 00:00:00",
+         "waktu_selesai":"",
+         "duration":20,
+         "lat":"1.124364",
+         "lng":"104.0415259",
+         "status":"Diterima",
+         "warna":"#CDDC39",
+         "publish":"Publish",
+         "evidence":"http:\/\/dpu.semarangkota.go.id\/files\/Evidence\/Foto_Laporan_20180830_111344.jpg",
+         "feedback":"akan segera ditindak lanjuti...",
+         "image":[  
+            {  
+               "id":"451",
+               "image":"http://poskotanews.com/cms/wp-content/uploads/2018/02/indramayu-dikepung-tumpukan-sampah.jpg"
+            }
+         ],
+         "video":[  
+
+         ],
+         "comment_count":0,
+         "share_link":"http:\/\/dpu.semarangkota.go.id\/Report\/Detail\/369"
+      },
+      {  
+         "id":368,
+         "code_report":"180809081136287",
+         "name":"adhakhil100@gmail.com",
+         "fullname":"suryo",
+         "kategori":"Kerusakan Infrastruktur",
+         "title":"Jalan jeglong",
+         "content":"Perbaikan jalan sekitar Rumah Sakit Santa Elisabeth jalan anggrek",
+         "avatar":"https:\/\/lh3.googleusercontent.com\/-XdUIqdMkCWA\/AAAAAAAAAAI\/AAAAAAAAAAA\/4252rscbv5M\/photo.jpg",
+         "date":"2018-08-09 08:12:32",
+         "date_end":"2018-08-30 00:00:00",
+         "waktu_selesai":"",
+         "duration":20,
+         "lat":"1.13569",
+         "lng":"104.0131038",
+         "status":"Masuk",
+         "warna":"#5DB7F3",
+         "publish":"Publish",
+         "evidence":"http:\/\/dpu.semarangkota.go.id\/files\/Evidence\/",
+         "feedback":null,
+         "image":[  
+            {  
+               "id":"451",
+               "image":"https://faktualnews.co/images/2017/06/perbaikan-jalan.jpg"
+            }
+         ],
+         "video":[  
+
+         ],
+         "comment_count":0,
+         "share_link":"http:\/\/dpu.semarangkota.go.id\/Report\/Detail\/369"
+      }
+   ]
+}

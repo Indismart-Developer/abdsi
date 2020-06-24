@@ -1,0 +1,21 @@
+{  
+   "status":true,
+   "message":"",
+   "result":[  
+      {  
+         "id_city_cctv":"4",
+         "id_city_users":"1",
+         "location_name":"Nagoya Plaza",
+         "location_detail":"Jl. Imam Bonjol No.1032, Lubuk Baja Kota, Lubuk Baja, Kota Batam, Kepulauan Riau 29432, Indonesia",
+         "longitude":"104.0108391",
+         "latitude":"1.14614",
+         "ordering":"1",
+         "source":"rtsp:\/\/user:9513@36.66.48.133:563\/live1.264\/track1",
+         "publish":"1",
+         "created_date":"2018-09-04 14:58:12",
+         "created_by":"1",
+         "modified_date":null,
+         "modified_by":null
+      }
+   ]
+}
