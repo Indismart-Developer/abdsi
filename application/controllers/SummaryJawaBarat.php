@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Summary extends CI_Controller {
+class SummaryJawaBarat extends CI_Controller {
 
 	public function __construct()
     {
@@ -19,7 +19,7 @@ class Summary extends CI_Controller {
 		$data['contents'] = array(
 			'table' => $this->table_planning()
 		);
-		$data['content'] = 'Summary/List';
+		$data['content'] = 'SummaryJawaBarat/List';
 		$this->load->view('Template', $data);
 	}
 	

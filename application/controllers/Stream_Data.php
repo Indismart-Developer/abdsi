@@ -27,7 +27,7 @@ class Stream_Data extends CI_Controller {
 		echo json_encode($response);
 	}
 	
-	function GetDataSummary(){
+	function GetDataSummaryJawaBarat(){
 		header('Content-type: application/json');
 		$response = new StdClass();
 		

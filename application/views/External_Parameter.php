@@ -10,8 +10,8 @@
 		case 'Users':
 			echo 'Users.init();';
 		break;
-		case 'Summary':
-			echo 'Summary.init();';
+		case 'SummaryJawaBarat':
+			echo 'SummaryJawaBarat.init();';
 		break;
 		case 'Pregnancy':
 			echo 'Pregnancy.init();';

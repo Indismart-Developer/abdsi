@@ -1,7 +1,7 @@
 handleChart = function() {
         "use strict";
 		$.ajax({
-            url: base_url + "Stream_Data/GetDataSummary",
+            url: base_url + "Stream_Data/GetDataSummaryJawaBarat",
             type: "GET",
             dataType: "json",
             success: function(data){
@@ -18,7 +18,7 @@ handleChart = function() {
         });
 }
 
-Summary = function() {
+SummaryJawaBarat = function() {
     "use strict";
     return {
         init: function() {
@@ -60,7 +60,7 @@ function handlePresentasePendudukJenisKelamin(series_data){
 			}
 		},
 		series: [{
-			name: 'Jenis Kelamin',
+			name: 'Jumlah',
 			colorByPoint: true,
 			data: series_data
 		}]
@@ -85,13 +85,13 @@ function handlePendudukJenisKelaminKecamatan(distrik,series_data){
 		yAxis: {
 			min: 0,
 			title: {
-				text: 'Jumlah (Jiwa)'
+				text: 'Jumlah'
 			}
 		},
 		tooltip: {
 			headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
 			pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-				'<td style="padding:0"><b>{point.y} Jiwa</b></td></tr>',
+				'<td style="padding:0"><b>{point.y}</b></td></tr>',
 			footerFormat: '</table>',
 			shared: true,
 			useHTML: true
@@ -116,7 +116,7 @@ function handlependuduk_per_kecamatan(series_data){
 			type: 'pie',
 			events: {
 				load: function () {
-					handlependuduk_per_kelurahan(1,'Bonto Bahari');
+					handlependuduk_per_kelurahan(1,'KABUPATEN BOGOR');
 				}
 			}
 		},
@@ -127,11 +127,11 @@ function handlependuduk_per_kecamatan(series_data){
 			enabled: false
 		},
 		tooltip: {
-			pointFormat: '{series.name}: <b>{point.y} Jiwa</b>'
+			pointFormat: '{series.name}: <b>{point.y}</b>'
 		},
 		accessibility: {
 			point: {
-				valueSuffix: 'Jiwa'
+				valueSuffix: ''
 			}
 		},
 		plotOptions: {
@@ -152,7 +152,7 @@ function handlependuduk_per_kecamatan(series_data){
 			}
 		},
 		series: [{
-			name: 'Jumlah Penduduk',
+			name: 'Jumlah',
 			colorByPoint: true,
 			data: series_data
 		}]
@@ -173,7 +173,7 @@ function handlependuduk_per_kelurahan(id_kecamatan,set_title){
 					type: 'column'
 				},
 				title: {
-					text: 'Kecamatan ' + set_title
+					text: set_title
 				},
 				subtitle: {
 					text: 'Klik Kolom Untuk Lebih Detail'
@@ -188,7 +188,7 @@ function handlependuduk_per_kelurahan(id_kecamatan,set_title){
 				},
 				yAxis: {
 					title: {
-						text: 'Jumlah Penduduk (Jiwa)'
+						text: 'Jumlah'
 					}
 
 				},
@@ -207,12 +207,12 @@ function handlependuduk_per_kelurahan(id_kecamatan,set_title){
 
 				tooltip: {
 					headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-					pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y}</b> Jiwa <br/>'
+					pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y}</b> <br/>'
 				},
 
 				series: [
 					{
-						name: "Jumlah Penduduk",
+						name: "Jumlah",
 						colorByPoint: true,
 						data: data.result.penduduk_per_kelurahan
 					}

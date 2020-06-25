@@ -19,12 +19,12 @@
 			echo '<script src="'.base_url().'files/Script_JS/Users.js"></script>';
 		break;
 		
-		case 'Summary':
+		case 'SummaryJawaBarat':
 			echo '<script src="https://code.highcharts.com/highcharts.js"></script>';
 			echo '<script src="https://code.highcharts.com/modules/variable-pie.js"></script>';
 			echo '<script src="https://code.highcharts.com/modules/data.js"></script>';
 			echo '<script src="https://code.highcharts.com/modules/drilldown.js"></script>';
-			echo '<script src="'.base_url().'files/Script_JS/Summary.js"></script>';
+			echo '<script src="'.base_url().'files/Script_JS/SummaryJawaBarat.js"></script>';
 		break;
 		
 		case 'Pregnancy':
@@ -55,13 +55,8 @@
 			echo '<script src="'.base_url().'files/assets/plugins/streamingvideo/polyfill/polyfill-7.0.0-beta.2.min.js"></script>';
 			echo '<script src="'.base_url().'files/assets/plugins/streamingvideo/streamedian.min.js"></script>';
 			echo '<script src="'.base_url().'files/Script_JS/dashboard_map.js"></script>';
-			echo '<script src="'.base_url().'files/Script_JS/Marker_Map_RumahSakit.js"></script>';
-			echo '<script src="'.base_url().'files/Script_JS/Marker_Map_KantorLayanan.js"></script>';
-			echo '<script src="'.base_url().'files/Script_JS/Marker_Map_Wisata.js"></script>';
-			echo '<script src="'.base_url().'files/Script_JS/Marker_Map_Distrik.js"></script>';
-			echo '<script src="'.base_url().'files/Script_JS/Marker_Map_CCTV.js"></script>';
-			echo '<script src="'.base_url().'files/Script_JS/Load_Map_Kecamatan.js"></script>';
-			echo '<script src="'.base_url().'files/Script_JS/Load_Map_Kecamatan_Botonbahari.js"></script>';
+			echo '<script src="'.base_url().'files/Script_JS/Load_Map_RegionAll.js"></script>';
+			echo '<script src="'.base_url().'files/Script_JS/Load_Map_RegionJawaBarat.js"></script>';
 		break;
 	}
 ?>

@@ -100,77 +100,23 @@ var handleJstreeCheckable = function() {
             },    
             'data': [
 				{
-                    "text": "Batas Administrasi",
+                    "text": "Informasi Umum",
                     "icon": false,
                     "a_attr": {"class":"no_checkbox"},
                     "state": {
                         "disabled": !0
                     },
                     "children": [
-                        {
-                            "id": "kecamatan_all",
-                            "text": "Semua Kecamatan",
+                        /* {
+                            "id": "region_all",
+                            "text": "Semua Wilayah",
                             "icon": false,
-                            "li_attr": { "class": "smaller-margins" }
-                        },
-						{
-                            "id": "kecamatan_botonbahari",
-                            "text": "Kecamatan Boton Bahari",
-                            "icon": false,
-                            "li_attr": { "class": "smaller-margins" }
-                        }
-                    ]
-                },
-                {
-                    "text": "CCTV",
-                    "icon": false,
-                    "a_attr": {"class":"no_checkbox"},
-                    "state": {
-                        "disabled": !0
-                    },
-                    "children": [
-                        {
-                            "id": "cctv_filter_all",
-                            "text": "Semua CCTV",
-                            "icon": false,
-                            "li_attr": { "class": "smaller-margins" }
-                        }
-                    ]
-                },
-				{
-                    "text": "Lokasi",
-                    "icon": false,
-                    "a_attr": {"class":"no_checkbox"},
-                    "state": {
-                        "disabled": !0
-                    },
-                    "children": [
-                        {
-                            "id": "location_rumah_sakit",
-                            "text": "Fasilitas Kesehatan",
-                            "icon": false,
-							"value_id": 1,
-                            "li_attr": { "class": "smaller-margins" }
-                        },
-						/* {
-                            "id": "location_kantor_layanan",
-                            "text": "Kantor Polisi",
-                            "icon": false,
-							"value_id": 2,
-                            "li_attr": { "class": "smaller-margins" }
-                        },
-						{
-                            "id": "location_distrik",
-                            "text": "Kantor Pemerintahan",
-                            "icon": false,
-							"value_id": 3,
                             "li_attr": { "class": "smaller-margins" }
                         }, */
 						{
-                            "id": "location_wisata",
-                            "text": "Tempat Wisata",
+                            "id": "jawa_barat",
+                            "text": "Provinsi Jawa Barat",
                             "icon": false,
-							"value_id": 4,
                             "li_attr": { "class": "smaller-margins" }
                         }
                     ]
@@ -192,32 +138,12 @@ var handleJstreeCheckable = function() {
     })
     .on("check_node.jstree uncheck_node.jstree", function(e, data) {
         switch (data.node.id) {
-			case "cctv_filter_all":
-                actionCCTV(data); //CCTV Get
-            break;
-			
-			case "location_rumah_sakit":
-				actionVenueRumahSakit(data);
-            break;
-			
-			case "location_kantor_layanan":
-				actionVenueKantorLayanan(data);
-            break;
-			
-			case "location_distrik":
-				actionVenueDistrik(data);
-            break;
-			
-			case "location_wisata":
-				actionVenueWisata(data);
-            break;
-			
-			case "kecamatan_all":
-				actionLoadKecamatanAll(data);
+			case "region_all":
+				actionLoadRegionAll(data);
 			break;
 			
-			case "kecamatan_botonbahari":
-				actionLoadKecamatanBotonBahari(data);
+			case "jawa_barat":
+				actionLoadRegionJawaBarat(data);
 			break;
 			
 			
